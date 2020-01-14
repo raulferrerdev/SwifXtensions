@@ -1,3 +1,1 @@
-struct SwifXtensions {
-    var text = "Hello, World!"
-}
+struct SwifXtensions { }

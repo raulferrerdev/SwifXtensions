@@ -23,6 +23,8 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "SwifXtensionsTests",
-            dependencies: ["SwifXtensions"]),
+            dependencies: ["SwifXtensions"])
+        ,
+
     ]
 )

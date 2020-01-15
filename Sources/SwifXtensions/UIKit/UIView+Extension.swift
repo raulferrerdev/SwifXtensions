@@ -9,20 +9,66 @@ import UIKit
 
 // MARK: - View dimensions
 public extension UIView {
-    var width:      CGFloat { return self.frame.size.width }
-    var height:     CGFloat { return self.frame.size.height }
-    var size:       CGSize  { return self.frame.size }
+    /// View width
+    var width: CGFloat {
+        return self.frame.size.width
+    }
     
-    var origin:     CGPoint { return self.frame.origin }
-    var x:          CGFloat { return self.frame.origin.x }
-    var y:          CGFloat { return self.frame.origin.y }
-    var centerX:    CGFloat { return self.center.x }
-    var centerY:    CGFloat { return self.center.y }
+    /// View height
+    var height: CGFloat {
+        return self.frame.size.height
+    }
     
-    var left:       CGFloat { return self.frame.origin.x }
-    var right:      CGFloat { return self.frame.origin.x + self.frame.size.width }
-    var top:        CGFloat { return self.frame.origin.y }
-    var bottom:     CGFloat { return self.frame.origin.y + self.frame.size.height }
+    /// View size
+    var size: CGSize  {
+        return self.frame.size
+    }
+    
+    /// View origin
+    var origin: CGPoint {
+        return self.frame.origin
+    }
+    
+    /// View x origin
+    var x: CGFloat {
+        return self.frame.origin.x
+    }
+    
+    /// View y origin
+    var y: CGFloat {
+        return self.frame.origin.y
+    }
+    
+    /// View center x
+    var centerX: CGFloat {
+        return self.center.x
+    }
+    
+    /// View center y
+    var centerY: CGFloat {
+        return self.center.y
+    }
+    
+    /// View left position
+    var left: CGFloat {
+        return self.frame.origin.x
+    }
+    
+    /// View right position
+    var right: CGFloat {
+        return self.frame.origin.x + self.frame.size.width
+    }
+    
+    /// View top position
+    var top: CGFloat {
+        return self.frame.origin.y
+    }
+    
+    /// View bottom position
+    var bottom: CGFloat {
+        return self.frame.origin.y + self.frame.size.height
+    }
+    
 }
 
 // MARK: - View shape

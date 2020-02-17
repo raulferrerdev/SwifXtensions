@@ -2,7 +2,7 @@
 
 Some useful extensions for Swift.
 
-## UIView
+## UIView+Extension
 
 ### Get view dimensions
 
@@ -18,4 +18,12 @@ Some useful extensions for Swift.
 **right**: CGFloat  
 **top**: CGFloat  
 **bottom**: CGFloat   
+
+### Round view corners
+**round(corners: UIRectCorner, radius: CGFloat)**
+
+### Get parent view controller
+**parentViewController**
+
+
 

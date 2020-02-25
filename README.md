@@ -74,3 +74,29 @@ let parentViewController = view.parentViewController
 let color = UIColor(hexadecimalString: "#444444ff")!
 ```
 Where final 'ff' stands for the alpha value.
+
+## UIImage
+
+### Returns image with color
+let image = UIImage(color: 'UIColor', size: 'CGSize')
+
+### Returns image from UIView
+let image = UIImage(view: 'UIView')
+
+### Returns gradien color image
+let image = UIImage(color: '[CGColor]', size: 'CGSize')
+
+### Returns image with alpha applied
+let image = UIImage().alpha('CGFloat')
+
+### Returns image with alpha gray applied
+let image = UIImage().alphaGray('CGFloat')
+
+### Calculates the aspect ratio between two sizes
+let ratio = image.aspectRatio(between: 'CGSize', and: 'CGSize') 
+
+### Scales an image to fit within a bounds with a size governed by the passed size. Also keeps the aspect ratio.
+image.scaled(to: 'CGSize', scalingMode: .aspectFill)
+
+### Scales image
+image.scale(to: 'CGSize', scalingMode: .aspectFill)
